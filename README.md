@@ -20,7 +20,7 @@ Hyperledger FabricにはQueryとInvoke二つのメソッドがあります。
 
 ## **関数の説明**
 
-**例：app.Invoke("関数名", new String[]{"para1","para2","para3"})**
+**例：app.Invoke("関数名", new String[]{"para1","para2","para3"});**
 
 **パラメータは決めた順番で入れてください。**
 
