@@ -10,7 +10,7 @@ public class Main {
         App app = new App();
 //        app.Invoke("SetRate", new String[]{"0.221"});
 //        app.Query("GetRate", new String[]{});
-        app.Invoke("CreateAsset", new String[]{"asset1","Maybe","100","0"});
+//        app.Invoke("CreateAsset", new String[]{"asset1","Maybe","100","0"});
 //        app.Query("ReadAsset", new String[]{"asset1"});
 //        app.Invoke("TransferPoint", new String[]{"asset1","200"});
 //        app.Invoke("DeleteAsset", new String[]{"asset3"});
