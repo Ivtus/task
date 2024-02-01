@@ -16,5 +16,6 @@ public class Main {
 //        app.Invoke("DeleteAsset", new String[]{"asset3"});
 //        app.Invoke("UpdateAsset",new String[]{"asset4","Maybe","150","0"});
 //        app.Invoke("DeleteAsset",new String[]{"asset3"});
+        app.Query("GetAllAssets", new String[]{});
     }
 }

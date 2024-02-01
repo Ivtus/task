@@ -32,7 +32,7 @@ public  class App {
     // Path to peer tls certificate.
     private static final Path TLS_CERT_PATH = CRYPTO_PATH.resolve(Paths.get("peers/peer0.org1.example.com/tls/ca.crt"));
     // Gateway peer end point.
-    private static final String PEER_ENDPOINT = "47.245.62.24:7051";
+    private static final String PEER_ENDPOINT = "x.x.x.x:7051";
     private static final String OVERRIDE_AUTH = "peer0.org1.example.com";
 
     private static ManagedChannel newGrpcConnection() throws IOException {
